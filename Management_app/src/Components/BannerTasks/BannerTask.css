@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom : 10px;
+  border-bottom : 1px solid #DBDBDB;
+  padding-bottom : 25px;
+
+    .header_input {
+      max-width: 200px;
+    }
+
+    .header_person {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+
+         .person_circle {
+             font-size: 22px ;
+          }
+         
+         p.header_text {
+             margin: 0px;
+          }
+    } 
+}
+
+
+

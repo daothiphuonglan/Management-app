@@ -1,0 +1,49 @@
+.sub_task {
+   min-width: 300px;
+   max-width: 320px;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   background: #C9D6FF; 
+   background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+   background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+   border-radius: 5px;
+
+   .sub_task_content {
+      min-width: 300px;
+      position: relative;
+      padding-top: 30px;
+      padding-bottom: 60px;
+      
+      .status {
+         position: absolute;
+         top: 3%;
+         left: 3%;
+         font-weight: 500;
+      }
+
+      .task_deadline {
+         position: absolute;
+         bottom: 0px;
+         right: 0px;
+         padding: 10px
+      }
+   }
+}
+
+.ant-space-item {
+   padding-top: 10px;
+}
+
+.status-pending {
+   color: rgb(212, 145, 19);
+}
+
+.status-in-progress {
+   color: limegreen;
+}
+
+.status-completed {
+   color: blue;
+}
+

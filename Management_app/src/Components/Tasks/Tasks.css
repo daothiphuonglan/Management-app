@@ -1,0 +1,56 @@
+.tasks_block {
+  padding : 0 10px;
+
+    .tasks_main {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+
+   .btn_funtion {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-direction: column;
+
+    #statusFilter {
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    #sortCriterion {
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+  }
+
+  .btn_filter , .btn_sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .tasks_main {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .tasks_block {
+
+    .btn_funtion {
+      flex-direction: row;
+      gap: 30px;
+      margin-top: 20px;
+      margin-bottom : 30px;
+    }
+
+  } 
+
+}
+
